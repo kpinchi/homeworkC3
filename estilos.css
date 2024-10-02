@@ -23,8 +23,12 @@ body{
 .card{
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 1em 0px 1em;
-    border-radius: 3%;
+    padding: 0px 1em 1em 1em;
+    border-radius: 10%;
+    transition: 2s;
+}
+.card:hover{
+    background-color: orangered ;
 }
 
 
