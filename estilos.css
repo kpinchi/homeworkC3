@@ -3,32 +3,75 @@ body{
     background-color: rgb(204, 211, 107);
 }
 .title{
-    font-size: 3em;
-    color: rgb(12, 31, 202);
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.autor{
+    font-size: 2em;
+    color:hsl(219, 100%, 50%);
+    text-align: center;
+    
+}
+.galeria{
+    font-size: 2em;
+    color: hsl(219, 100%, 50%);
 }
 .fotos{
     width: 200px;
+    height: 200px;
 }
 #principal{
-    font-size: 4.8em;
+    font-size: 3.5em;
     color: darkgreen;
+    text-align: center;
+    align-items: center;
 }
 #titulos{
-    border: 2px solid black;
+    
     width: 65vw;
     margin: auto;
-    padding: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.yo{
+    border: 2px solid rgb(0, 4, 255);
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 7%;
+    align-items: center;
     
 }
 .card{
-    border: 2px solid black;
+    border: 2px solid rgb(18, 126, 8);
     width: fit-content;
-    padding: 0px 1em 1em 1em;
-    border-radius: 10%;
-    transition: 2s;
+    padding: 1em 1em 2em 1em;
+    border-radius: 7%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 0em;
+    align-items: center;
 }
 .card:hover{
     background-color: orangered ;
+}
+#card-container{
+    background-color: rgb(1, 245, 253);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 

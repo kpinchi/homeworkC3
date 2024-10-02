@@ -4,53 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotografía</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="./estilos.css"/>
 </head>
 <body>
     <header>
         <div id="titulos">        
             <h1 class="title" id="principal">KP Fotografía</h1>
-            <h2 class="title">Kenny Pinchi</h2>
+            
+            <h2 class="autor">Kenny Pinchi</h2>
+            <img class="yo" src="./yo web.jpg" class="fotos"/>
         </div>
     </header>
-    <hr/>
+    
     <nav>
-        <span>Principal</span> 
+        <span>Sobre mí</span>
         <span>Galería</span> 
-        <span>Sobre mí</span> 
         <span>Contacto</span> 
     </nav>
     <main>
-        <img class="card" src="./yo web.jpg" class="fotos"/>
+        
+        <h2 class="galeria">Sobre mí</h2>
+
+        <p>Soy un fotógrafo con más de [X años] de experiencia,
+            especializado en capturar momentos únicos a través de
+            retratos íntimos y fotografía callejera. Mi estilo se
+            caracteriza por el uso de luz natural y la búsqueda de
+            emociones auténticas en cada imagen. Me apasiona explorar
+            nuevas técnicas y crear fotografías que no solo muestren una
+            imagen, sino que cuenten una historia.</p>
         
         <section>
-            <h2 class="title">Galería de Fotografía</h2>
-            <article>
-                <h3 class="title">Fotografía de retrato</h3>
-                <div class="card">
-                    <p>Aqui podra observar mis mejores fotografías realizado en estudio</p>
+            <h2 class="galeria">Galería</h2>
+            <div id="card-container">          
+                <article>
+                    
+                    <div class="card">
+                        <h3 class="title">Retrato</h3>
                     <img src="./retrato.jpg" class="fotos"/>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h3 class="title">Fotografía callejera</h3>
-                <div class="card">
-                    <p>Podras disfrutar de los paisajes que nos ofrecen los suburbios de 
-                        diferentes ciudades</p>
+                    </div>
+                    
+                </article>
+                
+                <article>
+                    
+                    <div class="card">
+                        <h3 class="title">Calle</h3>
                         <img src="./callejera.jpg" class="fotos"/>
-                </div>
-                <hr/>
-            </article>
-            <article>
-                <h3 class="title">Fotografía de paisaje</h3>
-                <div class="card">
-                    <p>Impresionantes paisajes de nuestro pais</p>
+                    </div>
+                    
+                </article>
+
+                <article>
+                    
+                    <div class="card">
+                        <h3 class="title">Paisaje</h3>
                     <img src="./paisaje.jpg" class="fotos"/>
-                </div>
-                <hr/>
-            </article>
-           
+                    </div>
+                    
+                </article>
+                <article>
+                    <div class="card">
+                        <h3 class="title">Gastronomía</h3>
+                        <img src="./_MG_5979.jpg" class="fotos"/>
+
+                    </div>
+                </article>
+
+            </div>
 
 
         </section>

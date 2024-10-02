@@ -1,0 +1,43 @@
+/* Reset CSS */
+
+/* Eliminar márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establecer una fuente base */
+body {
+    font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+    line-height: 1.6; /* Mejora la legibilidad */
+}
+
+/* Establecer estilos básicos para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em; /* Espacio debajo de los encabezados */
+}
+
+/* Listas */
+ul, ol {
+    list-style: none; /* Quitar puntos de las listas */
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none; /* Quitar subrayado de enlaces */
+    color: inherit; /* Heredar color del elemento padre */
+}
+
+/* Botones */
+button {
+    border: none; /* Quitar borde predeterminado */
+    background: none; /* Quitar fondo predeterminado */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+/* Imágenes */
+img {
+    max-width: 100%; /* Hacer que las imágenes sean responsivas */
+    height: auto; /* Mantener la proporción de las imágenes */
+}
