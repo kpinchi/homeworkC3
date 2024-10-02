@@ -1,17 +1,30 @@
+
 body{
     background-color: rgb(204, 211, 107);
 }
 .title{
-    font-size: 40px;
+    font-size: 3em;
     color: rgb(12, 31, 202);
 }
 .fotos{
     width: 200px;
 }
 #principal{
-    font-size: 80px;
+    font-size: 4.8em;
     color: darkgreen;
 }
-img{
-
+#titulos{
+    border: 2px solid black;
+    width: 65vw;
+    margin: auto;
+    padding: 2em;
+    
 }
+.card{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 3%;
+}
+
+
