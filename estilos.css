@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(204, 211, 107);
+}
+.title{
+    font-size: 40px;
+    color: rgb(12, 31, 202);
+}
+.fotos{
+    width: 200px;
+}
+#principal{
+    font-size: 80px;
+    color: darkgreen;
+}
+img{
+
+}
